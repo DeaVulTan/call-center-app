@@ -1,0 +1,102 @@
+ul, li {
+    list-style-type: none;
+    margin-left: 5px !important;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.current {
+    color: #228B22;
+}
+
+.container {
+    width: 95% !important;
+}
+
+.switcher,
+.cp-switch-tree-group,
+.cp-queue-tree-group{
+    cursor: pointer;
+}
+
+.op-switch-filter {
+    width: 100%;
+}
+
+a.op-switch-redirect-call:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.column {
+    padding: 0.5em;
+    padding-bottom: 5em;
+    margin: 0 0.5em;
+    vertical-align: top;
+}
+
+.column.third {
+    border-right: 1px dotted grey;
+    border-left: 1px dotted grey;
+}
+
+.portlet {
+    margin: 1em;
+    padding: 0 1em 0 1em;
+}
+
+.portlet-header {
+    margin: 0.3em;
+    padding-bottom: 4px;
+    padding-left: 0.2em;
+    cursor: default;
+}
+
+.portlet-header .ui-icon {
+    float: right;
+}
+
+.portlet-content {
+    padding: 0.4em 0em 0.4em 0em;
+}
+
+.accordion-inner {
+    padding: 0;
+}
+
+.ui-sortable-placeholder {
+    border: 1px dotted black;
+    visibility: visible !important;
+    height: 50px !important;
+}
+
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+.ui-resizable-e {
+    border-left: 1px dotted gray;
+}
+
+.icon-pickup {
+    cursor: pointer;
+    width: 21px;
+    height: 19px;
+}
+.portlet-header {
+    cursor: move;
+}
+
+.call-status {
+    color: red;
+}
+
+.call-status.call-status-0 {
+    color: orange;
+}
+
+.call-status.call-status-1 {
+    color: green;
+}

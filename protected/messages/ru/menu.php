@@ -1,0 +1,31 @@
+<?php
+//Русские сообщения
+return array(
+	'extnumber' => 'Внешние номера',
+	'Panels' => 'Панели',
+	'vip' => 'VIP',
+	'sounds' => 'Звуки',
+	'ivr' => 'IVR',
+	'sip' => 'Внутренние номера',
+	'users' => 'Пользователи',
+	'services' => 'Службы',
+	'login' => 'Войти',
+	'logout' => 'Выйти',
+	'Operations' => 'Действия',
+	'operatorPanel' => 'Панель оператора',
+	'supervisorPanel' => 'Панель супервизора',
+	'switching' => 'Переключения',
+	'Manage Notes' => 'Заметки',
+	'External Numbers' => 'Входящая маршрутизация',
+	'Notes' => 'Заметки',
+	'Fields' => 'Поля',
+	'Values' => 'Значения',
+	'Users' => 'Пользователи',
+	'Reports' => 'Отчеты',
+	'Manage TE' => 'Настройки',
+    'Auth Panel' => 'Роли и права доступа',
+    'User Statuses' => 'Статусы пользователей',
+    'Template' => 'Редактор отчетов',
+    'System setting' => 'Системные настройки',
+);
+?>

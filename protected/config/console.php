@@ -1,0 +1,45 @@
+<?php
+
+// This is the configuration for yiic console application.
+// Any writable CConsoleApplication properties can be configured here.
+
+$config = array();
+include_once('local.php');
+
+return array(
+	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+	'name'=>'My Console Application',
+
+	// preloading 'log' component
+	'preload'=>array('log'),
+
+	'import' => [
+		'application.components.*',
+		'application.modules.atc.models.Setting'
+	],
+
+	// application components
+	'components'=>array(
+        'db' => array_merge(array(
+            'connectionString' => 'mysql:host=localhost;dbname=callcenter',
+            'emulatePrepare' => true,
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+            'enableParamLogging' => true,
+            'enableProfiling' => true,
+        ), $config),
+		'log'=>array(
+			'class'=>'CLogRouter',
+			'routes'=>array(
+				array(
+					'class'=>'CFileLogRoute',
+					'levels'=>'error, warning',
+				),
+			),
+		),
+		'system' => [
+			'class' => 'SystemComponent',
+		],
+	),
+);
